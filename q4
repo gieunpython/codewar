@@ -1,0 +1,7 @@
+def reverse_seq(n):
+    list = []
+    number = 0
+    while number < n: 
+        list.append(n-number)
+        number += 1
+    return list
