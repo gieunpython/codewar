@@ -1,0 +1,8 @@
+def digitize(n):
+    digit = str(n)
+    new_digit = digit[::-1]
+    answer= list(new_digit)
+    for i in range(0, len(answer)):
+        answer[i] = int(answer[i])
+    return answer
+    
