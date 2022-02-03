@@ -1,0 +1,16 @@
+def same_case(a, b): 
+    # your code here
+    check_letter_a = a.isalpha()
+    check_letter_b = b.isalpha()
+    check_upper_a = a.isupper()
+    check_upper_b = b.isupper()
+
+    if check_letter_a and check_letter_b == True:
+        if (check_upper_a == True) and (check_upper_b == True):
+            return 1
+        elif (check_upper_a == False) and (check_upper_b == False):
+            return 1
+        else:
+            return 0
+    else:
+        return -1
