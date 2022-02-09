@@ -1,0 +1,8 @@
+def well(x):
+    num = x.count('good')
+    if num > 2:
+        return "I smell a series!"
+    elif (num == 1) or (num ==2):
+        return "Publish!"
+    else:
+        return "Fail!"
