@@ -1,0 +1,8 @@
+import math
+
+def new_avg(arr, newavg):
+    last_don= (len(arr)+1)*newavg- sum(arr)
+    if last_don >0:
+        return(math.ceil(last_don))
+    else:
+        raise ValueError
