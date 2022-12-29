@@ -1,0 +1,5 @@
+def createDict(keys, values):  
+    while len(keys) > len(values):
+        values.append(None)
+    dic = dict(zip(keys, values))
+    return dic
